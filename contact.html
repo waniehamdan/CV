@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact me</title>
+  </head>
+  <body>
+    <h1>My contact details</h1>
+    <ul>
+      <li>Email: abc123@gmail.com</li>
+      <li>Telephone: 0123456789</li>
+    </ul>
+    <br>
+    <hr>
+    <br>
+    <p>If I did not reply to your inquiries, please drop your info here. </p>
+    <!--the action arg. is the link for the form to be submitted-->
+    <form action="mailto:hazwanihamdan94@gmail.com" method="post" enctype="text/plain">
+      <label>Name:</label>
+      <input type="text" name="userName" value=""><br>
+
+      <label>Email:</label>
+      <input type="email" name="userEmail" value=""><br>
+
+      <label for="">Telephone:</label>
+      <input type="tel" name="userTel" value=""><br>
+
+      <label for="">Your message:</label>
+      <textarea name="userMessage" rows="8" cols="80"></textarea><br>
+
+      <label>Do you want to get daily email?</label>
+      <input type="checkbox" name="" value=""><br>
+
+      <label>Date:</label>
+      <input type="date" name="userDate" value=""><br>
+
+      <br>
+      <input type="submit" name="" value="Send request">
+      <!--value arg. can be changed to -->
+
+      <input type="reset" name="" value="Reset">
+
+
+    </form>
+  </body>
+</html>
